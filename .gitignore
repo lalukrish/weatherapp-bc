@@ -1,0 +1,21 @@
+# Ignore node_modules directory (common for backend projects)
+node_modules/
+
+# Ignore build directories (e.g., if you have a build output directory)
+build/
+dist/
+
+# Ignore logs
+*.log
+
+# Ignore environment files (e.g., for sensitive information)
+# .env
+# .env.local
+
+# Ignore specific backend directories or files
+backend/
+server/
+*.js.map
+*.tsbuildinfo
+
+# Ignore any other specific files or patterns
